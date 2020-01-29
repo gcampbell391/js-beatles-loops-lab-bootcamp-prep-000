@@ -45,7 +45,8 @@ function iLoveTheBeatles(n){
   function incrementVariable() {
   i = i + 1;
   return i;
+  }
   do{beatlesArr.push("I love the Beatles!");
-  }while(n < 15);
+  }while(incrementVariable() < 15);
   return beatlesArr;
 }
